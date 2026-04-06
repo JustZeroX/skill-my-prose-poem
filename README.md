@@ -40,9 +40,27 @@
 
 ---
 
-## 🚀 快速上手
+## 🚀 快速开始
 
-### 安装依赖（可选）
+### 步骤 1：安装
+
+#### 方式 1：Via ClawHub（推荐 ⭐）
+
+```bash
+# 1. 安装 ClawHub（如未安装）
+npm install -g clawhub
+
+# 2. 安装 my-prose-poem
+clawhub install my-prose-poem
+```
+
+#### 方式 2：Via GitHub
+
+```bash
+git clone https://github.com/JustZeroX/skill-my-prose-poem.git ~/.openclaw/skills/my-prose-poem
+```
+
+### 步骤 2：安装依赖（可选）
 
 ```bash
 pip install -r requirements.txt
@@ -50,7 +68,7 @@ pip install -r requirements.txt
 
 > `pillow` 用于读取照片 EXIF，不是必须。缺少时会自动提示用户补问时间地点，不中断流程。
 
-### 使用
+### 步骤 3：使用
 
 在支持 OpenClaw Skill 的 Claude 对话中，直接触发：
 
