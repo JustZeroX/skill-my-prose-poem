@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎖️ 我的散文诗 (My-Prose-Poem)
+# 🎖️ 我的散文诗.skill
 
 > *"有些经历，让 AI 帮你落笔，生出一篇散文诗。"*
 
