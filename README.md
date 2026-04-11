@@ -1,18 +1,18 @@
 <div align="center">
 
-# 🎖️ 我的散文诗.skill
+# 🎖️ 我的文学时刻.skill
 
-> *"有些经历，让 AI 帮你落笔，生出一篇散文诗。"*
+> *"有些经历，让 AI 帮你落笔，记录你的**文学时刻**。"*
 
 <!-- Badge Row 1: Core Info -->
-[![ClawHub](https://img.shields.io/badge/ClawHub-My--Prose--Poem-E75C46?logo=clawhub)](https://clawhub.ai/JustZeroX/my-prose-poem)  [![GitHub](https://img.shields.io/badge/GitHub-JustZeroX-181717?logo=github)](https://github.com/JustZeroX/skill-My-Prose-Poem)  [![Version](https://img.shields.io/badge/Version-0.0.1-orange)](https://github.com/JustZeroX/skill-My-Prose-Poem)
+[![ClawHub](https://img.shields.io/badge/ClawHub-My--Literary--Moment-E75C46?logo=clawhub)](https://clawhub.ai/JustZeroX/my-literary-moment)  [![GitHub](https://img.shields.io/badge/GitHub-JustZeroX-181717?logo=github)](https://github.com/JustZeroX/skill-my-literary-moment)  [![Version](https://img.shields.io/badge/Version-0.0.1-orange)](https://github.com/JustZeroX/skill-my-literary-moment)
 
 
 <!-- Badge Row 2: Tech Stack -->
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=3776AB)](https://www.python.org/)   [![Pillow](https://img.shields.io/badge/Pillow-10.0.0-brightgreen)](https://pypi.org/project/Pillow/10.0.0/)
 
 <!-- Badge Row 3: Platforms -->
-[![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white)](https://github.com/JustZeroX/skill-my-prose-poem)  [![Windows](https://img.shields.io/badge/Windows-0078D6?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA4OCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgzOXYzOUgweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik00OSAwaDM5djM5SDQ5eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDQ5aDM5djM5SDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQ5IDQ5aDM5djM5SDQ5eiIvPjwvc3ZnPg==)](https://github.com/JustZeroX/skill-my-prose-poem)   [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](https://github.com/JustZeroX/skill-my-prose-poem)
+[![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white)](https://github.com/JustZeroX/skill-my-literary-moment)  [![Windows](https://img.shields.io/badge/Windows-0078D6?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA4OCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgzOXYzOUgweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik00OSAwaDM5djM5SDQ5eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDQ5aDM5djM5SDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQ5IDQ5aDM5djM5SDQ5eiIvPjwvc3ZnPg==)](https://github.com/JustZeroX/skill-my-literary-moment)   [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](https://github.com/JustZeroX/skill-my-literary-moment)
 
 <!-- Badge Row 4: License -->
 [![License](https://img.shields.io/badge/License-MIT-BD2D2D)](LICENSE)
@@ -23,7 +23,7 @@
 翻出旧照片，那个瞬间明明很重要，却怎么也说不清楚。<br>
 <br>
 **不是不会写作，是感慨太多，反而不知道从哪里开始。**<br>
-**这个 Skill 不替你写——它帮你挖掘出隐藏在生活中的情感和故事。**
+**这个 Skill 不替你写——它帮你挖掘出隐藏在生活中的情感和故事，记录下你的**文学时刻**。**
 
 </div>
 
@@ -50,14 +50,14 @@
 # 1. 安装 ClawHub（如未安装）
 npm install -g clawhub
 
-# 2. 安装 my-prose-poem
-clawhub install my-prose-poem
+# 2. 安装 my-literary-moment
+clawhub install my-literary-moment
 ```
 
 #### 方式 2：Via GitHub
 
 ```bash
-git clone https://github.com/JustZeroX/skill-my-prose-poem.git ~/.openclaw/skills/my-prose-poem
+git clone https://github.com/JustZeroX/skill-my-literary-moment.git ~/.openclaw/skills/my-literary-moment
 ```
 
 ### 步骤 2：安装依赖（可选）
