@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ### 步骤 3：使用
 
-在支持 OpenClaw Skill 的 Claude 对话中，直接触发：
+在支持 OpenClaw Skill 的对话中，直接触发：
 
 ```
 写日记
