@@ -5,7 +5,7 @@
 > *"有些经历，让 AI 帮你落笔，记录你的**文学时刻**。"*
 
 <!-- Badge Row 1: Core Info -->
-[![ClawHub](https://img.shields.io/badge/ClawHub-My--Literary--Moment-E75C46?logo=clawhub)](https://clawhub.ai/JustZeroX/my-literary-moment)  [![GitHub](https://img.shields.io/badge/GitHub-JustZeroX-181717?logo=github)](https://github.com/JustZeroX/skill-my-literary-moment)  [![Version](https://img.shields.io/badge/Version-0.0.1-orange)](https://github.com/JustZeroX/skill-my-literary-moment)
+[![ClawHub](https://img.shields.io/badge/ClawHub-My--Literary--Moment-E75C46?logo=clawhub)](https://clawhub.ai/JustZeroX/my-literary-moment)  [![GitHub](https://img.shields.io/badge/GitHub-JustZeroX-181717?logo=github)](https://github.com/JustZeroX/skill-my-literary-moment)  [![Version](https://img.shields.io/badge/Version-0.0.2-orange)](https://github.com/JustZeroX/skill-my-literary-moment)
 
 
 <!-- Badge Row 2: Tech Stack -->
