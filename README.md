@@ -5,7 +5,7 @@
 > *"有些经历，让 AI 帮你落笔，记录你的**文学时刻**。"*
 
 <!-- Badge Row 1: Core Info -->
-[![ClawHub](https://img.shields.io/badge/ClawHub-My--Literary--Moment-E75C46?logo=clawhub)](https://clawhub.ai/JustZeroX/my-literary-moment)  [![GitHub](https://img.shields.io/badge/GitHub-JustZeroX-181717?logo=github)](https://github.com/JustZeroX/skill-my-literary-moment)  [![Version](https://img.shields.io/badge/Version-0.0.2-orange)](https://github.com/JustZeroX/skill-my-literary-moment)
+[![ClawHub](https://img.shields.io/badge/ClawHub-My--Literary--Moment-E75C46?logo=clawhub)](https://clawhub.ai/JustZeroX/my-literary-moment)  [![GitHub](https://img.shields.io/badge/GitHub-JustZeroX-181717?logo=github)](https://github.com/JustZeroX/skill-my-literary-moment)  [![Version](https://img.shields.io/badge/Version-0.0.3-orange)](https://github.com/JustZeroX/skill-my-literary-moment)
 
 
 <!-- Badge Row 2: Tech Stack -->
@@ -66,11 +66,11 @@ git clone https://github.com/JustZeroX/skill-my-literary-moment.git ~/.openclaw/
 pip install -r requirements.txt
 ```
 
-> `pillow` 用于读取照片 EXIF，不是必须。缺少时会自动提示用户补问时间地点，不中断流程。
+> `pillow` + `pillow-heif` 用于读取照片 EXIF（支持 HEIC），非必需。macOS 优先使用系统 `mdls` 命令；其他平台需要 `pillow-heif` 才能处理 HEIC。缺少时自动提示用户补问时间地点，不中断流程。
 
 ### 步骤 3：使用
 
-在支持 OpenClaw Skill 的对话中，直接触发：
+在支持 OpenClaw 的对话中，直接触发：
 
 ```
 写日记
@@ -195,11 +195,16 @@ AI 会分三层补完素材：
 
 | 依赖 | 必需 | 说明 |
 |------|------|------|
-| `pillow` | 可选 | 读取照片 EXIF，缺少时自动走降级流程 |
+| `pillow` | 可选 | 图片处理，缺少时自动走降级流程 |
+| `pillow-heif` | 可选 | HEIC/HEIF 支持，macOS 外必需 |
 
 ```bash
 pip install -r requirements.txt
 ```
+
+**平台说明：**
+- **macOS**：优先使用系统 `mdls` 命令提取 EXIF（性能最优）
+- **Windows/Linux**：需要 `pillow-heif` 才能处理 HEIC 文件
 
 **EXIF 说明：**
 - 仅读取 `DateTime`、`GPSInfo`、`Model` 作为背景辅助
@@ -251,7 +256,7 @@ It doesn't write stories for you. Instead, through restrained questioning, it he
 pip install -r requirements.txt
 ```
 
-> `pillow` enables EXIF reading and is optional. If missing, the Skill gracefully falls back to asking the user for time/place instead.
+> `pillow` + `pillow-heif` enables EXIF reading (including HEIC) and is optional. macOS uses native `mdls` command; other platforms need `pillow-heif` for HEIC. If missing, the Skill gracefully falls back to asking the user for time/place instead.
 
 ### Trigger
 
